@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+background: 
+    /* Overlay para opacidad */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* fondo glitch*/
+    url("background.gif");
+
+background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+        -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+        -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+        -o-background-size: cover; /* for Opera 9.5 */
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.titulo {
+  padding: 0px;
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  margin-bottom: 1px;
+  text-align: center;
+  font-size: 5vw;
+  color: #7aecff;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+.main {
+  width: 50vw;
+  margin: auto;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  color: #7aecff;
+
+}
+
+
+
+.subtitulo{
+
+  text-align: center;
+  letter-spacing: 5px;
+  color:  #7aecff;;
+
+}
+
+
+
+p 
+
+{
+font-size: 1.7vw;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+
+.bloques {
+  padding: 13px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color:#1e505f;
+  border-radius: 0.5em;
+  width: 45vw;
+  height: auto;
+  color: 	#7aecff;
+
+}
+
+
+
+.bloque1 {
+  margin-bottom: 30px;
+
+}
+
+
+
+input[type="button"] 
+{
+
+border: 0;
+  color: #0a181c;
+  font-weight: bold;
+  background-color: #4da6d1;
+  padding: 0.5em;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  font-size: 1.5vw;
+
+}
+
+
+
+#texto{
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #0a181c;
+  color: white;
+
+}
+
+
+
+.mens-encriptado {
+  text-align: center;
+}
+
+#textofinal{
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #0a181c;
+  color: white;
+
+}
+
+
+
+footer {
+
+text-align: right;
+display: block;
+padding: 0px;
+margin-right: 2px;
+height: 10px;
+color: #4da6d1;
+font-size: 1vw;
+display: flex;
+justify-content: right;
+
+}
+
+
+@media all and (max-width: 450px) 
+
+          {
+
+
+  
+
+          .main {
+            margin: auto;
+            font-size: 5vw;
+            display: flex;
+            justify-content: center;
+            color: #7aecff;
+
+          }
+
+
+          .titulo 
+          {
+            font-size: 10vw;
+            margin-bottom: 0px;
+          }
+
+
+          .subtitulo{
+
+            letter-spacing: 2px;
+            font-size: 5vw;
+
+
+          }
+
+
+
+          p 
+
+          {
+          font-size: 4vw;
+          margin-top: 15px;
+          margin-bottom: 8px;
+          text-align: left;
+          }
+
+
+          .bloques {
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            background-color:#1e505f;
+            border-radius: 0.5em;
+            color:  #7aecff;
+            width: 300em;
+            height: auto;
+            text-align: center;
+
+          }
+
+
+
+
+          .bloque1 {
+            margin-bottom: 23px;
+
+          }
+
+
+
+          input[type="button"] 
+          {
+
+          border: 0;
+            color: #0a181c;
+            font-weight: bold;
+            background-color: #4da6d1;
+            padding: 0.5em;
+            margin-top: 10px;
+            border-radius: 0.5em;
+            font-size: 4vw;
+            width: 75%;
+
+
+
+          }
+
+
+
+          #texto{
+            border-radius: 0.5em;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            display: block;
+            padding: 0.5em;
+            width: 100%;
+            height: 95px;
+            margin-top: 10px;
+            background-color: #0a181c;
+            color: white;
+
+          }
+
+
+
+          .mens-encriptado {
+            text-align: center;
+          }
+
+          #textofinal{
+            border-radius: 0.5em;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            display: block;
+            padding: 0.5em;
+            width: 100%;
+            height: 95px;
+            margin-top: 10px;
+            background-color: #0a181c;
+            color: white;
+
+          }
+
+
+
+          footer {
+
+          text-align: right;
+          display: block;
+          padding: 0px;
+          margin-right: 2px;
+          height: 10px;
+          color: #4da6d1;
+          font-size: 2vw;
+          display: flex;
+          justify-content: right;
+
+          }
+
+
+
+  }
+

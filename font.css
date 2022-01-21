@@ -1,0 +1,22 @@
+@font-face {
+
+	font-family: "hack";
+	src: url(hackerchaos.ttf);
+
+}
+
+@font-face {
+	font-family: "codesaver";
+	src: url(codesaver.ttf);
+}
+
+
+.titulo {
+
+	font-family: "hack";
+}
+
+.bloques {
+
+	font-family: "codesaver";
+}
